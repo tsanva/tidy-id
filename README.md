@@ -16,9 +16,9 @@ We also aim to make parking a better experience by:
 
 ## Team Macan Galak 🐯
 
- - Abdulloh Munib       (19523115)
- - Vasant Paradissa     (19523103)
- - Yafi Hudatama        (19523224)
+ - Muchammad Abdulloh Munib     (19523115)
+ - Vasant Paradissa Nuno Sakti  (19523103)
+ - Yafi Hudatama Wibowo         (19523224)
 
 ---
 **A project for Web App Development Class**
