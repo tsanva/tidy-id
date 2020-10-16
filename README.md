@@ -20,6 +20,7 @@ We also aim to make parking a better experience by:
  - Vasant Paradissa     (19523103)
  - Yafi Hudatama        (19523224)
 
+---
 **A project for Web App Development Class**
 
 **Developed by college students of Universitas Islam Indonesia**
