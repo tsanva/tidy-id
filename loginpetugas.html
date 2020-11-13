@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tidy.id</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/resources/css/loginpetugas.css" />
+    <script src="/resources/js/loginpetugas.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Tidy.id</h1>
+      <p>Trust Your Bike With Us</p>
+    </div>
+
+    <div class="row">
+      <div class="main0">
+        <p>Antri ? Telat ? Lari lari masuk kelas ?</p>
+        <h1>Tidy.id SOLUSI TERBAIK</h1>
+      </div>
+
+      <div class="main">
+        <h1>Login Petugas</h1>
+        <form
+          name="form-login"
+          action="login.html"
+          method="get"
+          id="mylogin"
+          onsubmit=" return validasi()"
+        >
+          <div class="container">
+            <label for="username"><b>Username</b></label>
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="username"
+              id="username"
+              required
+            />
+
+            <label for="password"><b>Password</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="password"
+              id="password"
+              required
+            />
+            <input type="submit" />
+            <label>
+              <input type="checkbox" checked="checked" name="remember" />
+              Remember me
+            </label>
+          </div>
+
+          <div class="container" style="background-color: #f1f1f1">
+            <span class="password">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Tidy.id@gmail.com</h2>
+    </div>
+  </body>
+</html>

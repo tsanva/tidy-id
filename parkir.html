@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tidy.id</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/resources/css/parkir.css" />
     <script src="/resources/js/parkir.js"></script>
-    <link rel="stylesheet" href="resources/css/parkir.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <div class="container">
-      <header class="unselectable">
-        <h1><a href="">Tidy.id</a></h1>
-        <h2>Hai! mulai dengan menekan tombol parkir di bawah!</h2>
-      </header>
-      <div id="preload" class="center no-transition">
-        <button>Parkir</button>
+    <div class="header">
+      <h1>Tidy.id</h1>
+      <p>With <b>Us</b> Your Bike.</p>
+    </div>
+    <div class="navbar">
+      <a href="informasi.html">Informasi</a>
+      <a href="parkir.html">Parkir</a>
+      <a href="saran.html">Tentang Kami</a>
+      <a href="loginutama.html">Log Out</a>
+    </div>
+    <div class="row">
+      <div class="side">
+        <h2>Tambah Kendaraan Baru</h2>
+        <br />
+        <form id="data-plat">
+          <label for="plat">Plat Nomor</label>
+          <input type="text" name="plat" id="plat" /><br />
+          <label for="area">Area Parkir:</label>
+          <select name="area" id="area">
+            <option value="FTI">FTI</option>
+            <option value="FMIPA">FMIPA</option>
+            <option value="Komunikasi">Komunikasi</option></select
+          ><br />
+        </form>
+        <button class="button" onclick="tableFunction();">Tambah</button>
       </div>
-      <footer></footer>
+      <div class="main">
+        <h2>Daftar Kendaraan Terparkir</h2>
+        <table id="tabel-parkir" style="width: 100%">
+          <tr>
+            <th>Plat Nomor</th>
+            <th>Area Parkir</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Tidy.id@gmail.com</h2>
     </div>
   </body>
 </html>
