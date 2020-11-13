@@ -7,75 +7,54 @@
     <link rel="stylesheet" href="/resources/css/saran.css" />
   </head>
   <body>
-    <div class="head1">
-      <div>Tidy.id</div>
+    <div class="header">
+      <h1>Tidy.id</h1>
+      <p>Trust Your Bike With Us</p>
     </div>
-    <div class="head2">
-      <div>Trust Your <b>Bike</b> With Us.</div>
-    </div>
-
     <div class="navbar">
-      <a href="#">Informasi</a>
-      <a href="#">Parkir</a>
-      <a href="#">Tentang Kami</a>
-      <a href="#">Log Out</a>
+      <a href="informasi.html">Informasi</a>
+      <a href="parkir.html">Parkir</a>
+      <a href="about.html">Tentang Kami</a>
+      <a href="loginutama.html">Log Out</a>
     </div>
+    <div class="row">
+      <div class="side">
+        <h2>Tentang Kami</h2>
 
-    <div class="isi">
-      <div class="row">
-        <div class="side">
-          <h2>Tentang Tidy.id</h2>
-
-          <br />
-
-          <div class="tentang">
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="saran.html">Saran & Kritik</a></li>
-              <li><a href="kontak.html">Kontak</a></li>
-            </ul>
-          </div>
+        <div class="submenu">
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="saran.html">Saran & Kritik</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
         </div>
       </div>
 
       <div class="main">
-        <div class="submain">
-          <h2>Tentang Kami</h2>
-          <br />
-
-          <label class="sublist">Isikan Saran Anda :</label><br /><br />
+        <h2>Tentang Kami</h2>
+        <form>
+          <label class="sublist">Isikan Saran Anda :</label>
           <p>
             <textarea
-              cols="10"
-              rows="5"
-              charswidth="23"
               class="text"
               placeholder="Isikan saran anda dikolom ini."
             ></textarea>
           </p>
-          <br />
-
-          <label class="pilihan">Pilih opsi berikut :</label><br /><br />
-          <p>
-            <input
-              type="radiobutton"
-              id="nama"
-              name="nama"
-              placeholder="Beri nama"
-            />
-          </p>
-          <br />
+          <input
+            type="radiobutton"
+            id="nama"
+            name="nama"
+            placeholder="Masukan nama"
+          />
           <div class="tombol">
             <input type="button" name="button" value="Submit" />
           </div>
-        </div>
+        </form>
       </div>
     </div>
 
     <div class="footer">
-      <div>
-        <h2><i>Tidy.id@gmail.com</i></h2>
-      </div>
+      <h2>Tidy.id@gmail.com</h2>
     </div>
   </body>
 </html>
