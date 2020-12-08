@@ -103,37 +103,18 @@ div ul ul li a{
 .sidebar-kanan .tengah {
 	 margin: 0px 50px 0px 50px;
 }
+
+.sidebar-kanan .tengah h1{
+	margin-bottom: 15px;
+	margin-top: 50px;
+}
 .sidebar-kanan .tengah p{
 	 text-align: justify;
 	 line-height: 1.5;
 	 font-weight: 500;
 }
-.sidebar-kanan .tengah h1{
-	margin-bottom: 15px;
-	margin-top: 50px;
-}
-.sidebar-kanan .tengah textarea {
-  resize: horizontal;
-  width: 50%;
-  height: 80px;
-}
-.sidebar-kanan .tengah input{
-	height: 30px;
-}
-.submit-btn{
-	cursor: pointer;
-	width: 10%;
-  	height: 30px;
-	margin: 10px;
-	border-radius: 3px;
-	font-size: 15px;
-	color: #fff;
-	background-color: #1abc9c;
-	border: none;
-	font-weight: 500;
-}
-.submit-btn:hover{
-	opacity: 0.8;
+.sidebar-kanan .tengah h3{
+	margin-top: 15px;
 }
 
 /*Responsif Query*/
