@@ -1,0 +1,5 @@
+silahkan ubah config database di file-file berikut:
+
+/php/conf/koneksi.php
+/php/server/mahasiswalog_serv.php
+/php/server/petugaslog_serv.php
